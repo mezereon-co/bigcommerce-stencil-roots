@@ -1,0 +1,12 @@
+.roots .mz-action-bar {
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 801px) {
+  .roots .page-sidebar + .page-content .productGrid .product {
+    min-height: 370px;
+  }
+}
+
+.mz-fallback {
+  display: none !important;
+}
