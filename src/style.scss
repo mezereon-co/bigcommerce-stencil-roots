@@ -1,9 +1,38 @@
 .roots .mz-action-bar {
   padding-bottom: 10px;
 }
+
+@media (min-width: 551px) {
+  .roots .roots-sidebar+.page-content .productGrid .product {
+    width: 33.33333%;
+  }
+}
+
 @media only screen and (min-width: 801px) {
-  .roots .page-sidebar + .page-content .productGrid .product {
+  .roots .roots-sidebar {
+    border: 1px solid #ebebeb;
+    padding: 20px 20px 0;
+    background: #fff;
+    margin-bottom: 40px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 25%;
+    float: left;
+    position: relative;
+  }
+  .roots .roots-sidebar + .page-content {
+    padding: 0 0 0 15px;
+    width: 75%;
+    float: left;
+  }
+  .roots .roots-sidebar + .page-content .productGrid .product {
     min-height: 370px;
+  }
+  .roots .roots-sidebar+.page-content .productGrid .brand,
+  .roots .roots-sidebar+.page-content .productGrid .product {
+    -ms-flex: 0 1 33.33333%;
+    flex: 0 1 33.33333%;
+    max-width: 33.33333%;
   }
 }
 
