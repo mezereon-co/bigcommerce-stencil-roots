@@ -1,6 +1,6 @@
 # bigcommerce-stencil-roots
 
-UI Components for Bigcommerce Roots Theme
+UI Components for BigCommerce Roots Theme
 
 - **Performance** - results provided in milliseconds.
 - **Scalability** - SaaS software is hosted in Google Cloud.
