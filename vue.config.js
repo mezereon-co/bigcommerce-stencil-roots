@@ -1,6 +1,4 @@
 const webpack = require('webpack')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin
 
 module.exports = {
   chainWebpack: config => {
@@ -13,14 +11,6 @@ module.exports = {
       .end()
       .use('svg-to-vue-component')
       .loader('svg-to-vue-component/loader')
-
-    config.plugin('BundleAnalyzerPlugin').use(
-      new BundleAnalyzerPlugin({
-        reportFilename: 'bundle.html',
-        analyzerMode: 'static',
-        openAnalyzer: false
-      })
-    )
 
     config
       .plugin('LimitChunkCountPlugin')
