@@ -9,7 +9,6 @@ module.exports = {
   ],
   plugins: [
     '@babel/plugin-syntax-dynamic-import',
-    'lodash',
     [
       '@babel/plugin-transform-runtime',
       {

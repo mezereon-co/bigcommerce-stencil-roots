@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/mezereon-co/bigcommerce-stencil-roots"
   },
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "UI Components for BigCommerce Roots Theme",
   "author": "Mezereon Inc.",
   "license": "MIT",
@@ -30,16 +30,15 @@
     "package.json"
   ],
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.3",
-    "@vue/cli-plugin-eslint": "^4.5.3",
-    "@vue/cli-service": "^4.5.3",
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-eslint": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.1.0",
-    "babel-plugin-lodash": "^3.3.4",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.22.0",
@@ -53,7 +52,7 @@
     "kind-of": ">=6.0.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
