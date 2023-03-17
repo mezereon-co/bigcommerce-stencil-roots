@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 
 module.exports = {
-  chainWebpack: config => {
+  chainWebpack: (config) => {
     config.module.rules.delete('svg')
     config.module
       .rule('svg')

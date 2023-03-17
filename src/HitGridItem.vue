@@ -14,7 +14,7 @@
           <div
             v-else-if="
               item.inventory_tracking === 'product' &&
-                item.inventory_level === 0
+              item.inventory_level === 0
             "
             class="stock-badge"
           >
@@ -77,7 +77,7 @@
                   <span
                     v-else-if="
                       item.inventory_tracking === 'product' &&
-                        item.inventory_level === 0
+                      item.inventory_level === 0
                     "
                   ></span>
                   <a
@@ -216,13 +216,13 @@ export default {
     onCompareInputChange() {
       const counter = []
       const compareInputs = document.querySelectorAll('.compare-input:checked')
-      compareInputs.forEach(item => {
+      compareInputs.forEach((item) => {
         counter.push(item.value)
       })
       this.compareUrl = `${this.context.compareUrl}${counter.join('/')}`
       const wraps = document.querySelectorAll('.compare-button-wrap')
       const self = this
-      wraps.forEach(item => {
+      wraps.forEach((item) => {
         item.style.display = compareInputs.length > 0 ? 'block' : 'none'
         item.style.visibility = compareInputs.length > 0 ? 'visible' : 'hidden'
         item.href = self.compareUrl
