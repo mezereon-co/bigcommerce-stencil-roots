@@ -58,5 +58,8 @@
     "> 1%",
     "last 2 versions"
   ],
-  "main": "./dist/ui-components.umd.min.js"
+  "main": "./dist/ui-components.umd.min.js",
+  "overrides": {
+    "lodash": "^4.17.23"
+  }
 }
